@@ -5,7 +5,7 @@ cam scanner python project made using opencv and numpy python library
 The script takes an image as input and then scans the document from the image , applies few image processing techniques and gives output with scanned effect
 
 # How does it work?
-1.Resize the images so OpenCV can handle it.
+1.Resize the images using cv2.resize so OpenCV can handle it.
 
 2.Guassian Blur to smoothen image.
 
